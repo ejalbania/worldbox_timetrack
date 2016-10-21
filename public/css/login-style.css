@@ -1,0 +1,115 @@
+
+@media screen and (min-width: 480px) and (max-device-width: 1999px){
+	body{
+
+		padding: 20px;
+		margin: 0px;
+
+		background: whitesmoke;
+	}
+	#loginBox{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+
+		width: 350px;
+
+		padding: 30px;
+
+		border: solid 1px #ddd;
+		background: white;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 1px 0 rgba(0, 0, 0, 0.19);
+
+		-webkit-transform: translate(-50%, -40%);
+		   -moz-transform: translate(-50%, -40%);
+		    -ms-transform: translate(-50%, -40%);
+		     -o-transform: translate(-50%, -40%);
+		        transform: translate(-50%, -40%);
+	}
+	#logo{
+		width: 200px;
+		padding-bottom: 10px;
+	}
+	#login_label{
+		color: #585858;
+		margin-bottom: 25px;
+		font-size: 1.2em;
+	}
+	.form-group-lg{
+		padding-bottom: 10px;
+	}
+	form{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (min-width: 0px) and (max-device-width: 479px) {
+	body{
+		background: white;
+	}
+	#loginBox{
+		width: 100%;
+		border: none;
+		background: none;
+		box-shadow: 0 0 0 0;
+
+		padding: 100px;
+	}
+	#logo{
+		width: 60%;
+		padding-bottom: 20px;
+	}
+	#login_label{
+		color: #585858;
+		margin-bottom: 50px;
+		font-size: 2.5em;
+	}
+	.form-group-lg{
+		padding-bottom: 20px;
+	}
+	form{
+		margin-bottom: 20px;
+	}
+}
+@media screen and (min-width: 2000px){
+	body{
+		padding: 0px;
+		margin: 0px;
+
+		background: whitesmoke;
+	}
+	#loginBox{
+		position: absolute;
+		top: 40%;
+		left: 50%;
+
+		width: 750px;
+
+		padding: 80px;
+
+		border: solid 1px #ddd;
+		background: white;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 1px 0 rgba(0, 0, 0, 0.19);
+
+		-webkit-transform: translate(-50%, -40%);
+		   -moz-transform: translate(-50%, -40%);
+		    -ms-transform: translate(-50%, -40%);
+		     -o-transform: translate(-50%, -40%);
+		        transform: translate(-50%, -40%);
+	}
+	#logo{
+		width: 60%;
+		padding-bottom: 20px;
+	}
+	#login_label{
+		color: #585858;
+		margin-bottom: 50px;
+		font-size: 2.5em;
+	}
+	.form-group-lg{
+		padding-bottom: 20px;
+	}
+	form{
+		margin-bottom: 20px;
+
+	}
+}
