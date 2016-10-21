@@ -19,6 +19,7 @@ li {
     float: left;
 }
 
+<<<<<<< HEAD
 li a, .dropbtn {
      display: block;
     color: #666;
@@ -84,5 +85,14 @@ li.dropdown {
 <h3></h3>
 <p></p>
 
+=======
+	<script src="public/js/bootstrap.min.js" type="text/javascript"></script>
+	
+</head>
+<body>
+	<div class="container">
+		asdasd
+	</div>
+>>>>>>> 9ac8219ccf6c7302bdb0a0ca7274e8ded38d34de
 </body>
 </html>
